@@ -1,5 +1,7 @@
 # ReposPOC
 
+1. Executar yarn
+
 Para iOS: 
 1.  cd ios; 
 2. pod install
