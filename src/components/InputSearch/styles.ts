@@ -1,7 +1,7 @@
 import {View} from 'react-native';
 import styled from 'styled-components/native';
 import {TextInput} from 'react-native';
-import SearchIcon from '../..//assets/icons/search.svg';
+//import SearchIcon from '../..//assets/icons/search.svg';
 
 export const InputContainer = styled(View)`
   background-color: #7676801f;
@@ -20,4 +20,6 @@ export const StyledInput = styled(TextInput)`
 
 export const IconContainer = styled(View)``;
 
-export const StyledSearchIcon = styled(SearchIcon)``;
+export const StyledSearchIcon = styled(View)`
+  align-self: center;
+`;
